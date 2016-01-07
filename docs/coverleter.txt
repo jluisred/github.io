@@ -1,0 +1,21 @@
+
+6th January, 2016
+
+Dear Sir, Madam:
+
+I am writing to you because I am interested in knowing more about possible research positions at IBM that could match my expertise. Working in such a emblematic company in the computer science domain represents an exciting challenge that I would love to take on. 
+
+Currently, I am facing the last phases of my Phd student period at Eurecom Research Institute, in France. During almost 4 years I have been involved in research activities regarding Semantic Web and Multimedia technologies, Machine Learning algorithms, and Knowledge Representation focusing on the annotation of News Stories. I have also participated in various European projects like LinkedTV, MediaMixer and NexGenTV, with parners from different countries like Germany, The Netherlands or Spain, and attended leading conferences in the domain of Semantic Web and Multimedia. 
+
+During all this time, I developed strong communication and adaptation skills. I have dealt with many different cultures and I always enjoy learning about other people's points of view. I am good at listening, understanding the requirements and provide an innovative solutions that place quality first. I love innovating in everything I do, have pasion for discovering new things, and enjoying idendifing those different perspectives of the problem that materialize utopic ideas into today's solutions.  
+
+The work I have developed during my Phd has various common points with some of the research areas you guys are leveraging on at IBM Watson platform, like Data Mining, Knowledge Discovery and Natural Language Processing techniques. On the one hand, I have been using different information extraction and machine learning techniques to unveal semantic structures inside unstructured documents, like Named Entity Recognition and Desambiguation. On the other hand, I have studied the crucial importance of the context of a document for refining and complementing what has been previously spotted via the aforementioned techinques. My findings in the domain of international news stories have revealed that only a proper contextualization process, leveraging on the vast knowledge available on the Web, can enable machines to bridge the conceptual gaps between the raw documents its resulting interpretations.
+ 
+I believe Semantic and Big Data technologies can help us to enroll machines for this cause. The Web has revealed its strengths as a mine of real world objects and shared taxonomies that computers can leverage on to complement, refine and contextualize this Data. Those new information techniques work in Symbiosis to yopen a window to a more sophisticated, human-like reasoning over the Data to ultimately try to make sense out of it.
+
+As for the non-professional part, I am a music enthusiastic and I think of myself as a creative person, which also can be an advantage in an explorative and continuous-learning environment. 
+
+Feel free to contact me if you have any further question. 
+Looking forward to hearing from you soon:
+
+Jose Luis
