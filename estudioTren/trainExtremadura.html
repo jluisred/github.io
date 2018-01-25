@@ -51,13 +51,13 @@
 							<p style="margin: 0 1 0em 0;"> En este estudio se ha considerado que el grado de conexión de una ciudad con la capital del país es un buen indicador sobre el nivel de accesibilidad de la misma. Este hecho cobra aún mayor relevancia en el caso de España, al coincidir la localización de Madrid con el centro geográfico del territorio. 
 							</p>
 							<p>
-							Dicho esto, ¿cómo medimos esa calidad en la conexión por tren entre la ciudad en cuestión y Madrid? Para cuantificar de manera sencilla este factor, hemos <span style="font-weight: bold">comparado el tiempo que se tarda en hacer este trayecto en tren, con el correspondiente en coche.</span>. 
+							Dicho esto, ¿cómo medimos esa calidad en la conexión por tren entre la ciudad en cuestión y Madrid? Para cuantificar de manera sencilla este factor, hemos comparado el tiempo que se tarda en hacer el trayecto en tren con lo que tardaríamos si lo realizamos en coche.</span>
 							</p>
 							<p>
 							Se parte de la premisa de que <span style="font-weight: bold">la calidad del transporte por carretera es mucho más uniforme a lo largo del territorio, y por tanto un buen punto de referencia con el que evaluar la infraestructura ferroviaria</span>. Todas ciudades estudiadas tienen acceso por autovía o autopista, con un límite de velocidad equivalente, y se han considerado mediciones de tiempo en las que no hay congestión de tráfico. Además, la duración del trayecto en coche es dependiente de la distancia geográfica y de la dificultad del terreno, al igual que ocurre con el tren.
 							</p>
 							<p>
-							Por tanto y de manera más formal, la calidad de la conexión por tren de una ciudad \(C\) con Madrid, equivale a la duración del trayecto en tren dividido por la duración del mismo recorrido por carretera.  
+							De manera un poco más formal, la calidad de la conexión por tren de una ciudad \(C\) con Madrid, equivale a la duración del trayecto en tren dividido por la duración del mismo recorrido por carretera.  
 									$$T_{C} = {Tiempo_{Tren} (C, Madrid) \over Tiempo_{Carretera} (C, Madrid)}$$
 							</p>
 							<h3 style="margin: 0 0 0em 0;">Dos ejemplos: Cáceres y Castellón de la Plana</h3>
@@ -73,7 +73,7 @@
 							</p>
 							$$T_{Cáceres} = {Tiempo_{Tren} (C, Madrid) \over Tiempo_{Carretera} (C, Madrid)} = { 173 \over 257} = 0.6732$$
 							<p>
-							Dado que el valor de este indicador sea menor que uno significa que el recorrido por carretera es preferible respecto al correspondiente por tren, algo que ya habíamos deducido al ver las figuras y los datos temporales. De hecho, cuanto menor sea este índice, menos compensará realizar el viaje en tren. Podemos concluir que la calidad del tren conectando Madrid con Cáceres es baja.
+							El hecho de que el valor de este indicador sea menor que uno nos está indicando que el recorrido por carretera es preferible respecto al correspondiente por tren, algo que ya habíamos deducido al ver las figuras y los datos temporales. Generalizando, cuanto menor sea este índice de calidad, menos compensará realizar el viaje en tren y más recomendable es optar por el viaje por carretera. Se puede concluir que la calidad del tren que conecta Madrid con Cáceres es baja.
 							</p>
 							<p>
 							Veamos ahora los mismos datos correspondientes a Castellón de la Plana:
@@ -81,14 +81,14 @@
 							<span class="image main"><img src="figures/final_castellon.png" alt="" /></span>
 							$$T_{Castellon} = {Tiempo_{Tren} (C, Madrid) \over Tiempo_{Carretera} (C, Madrid)} = { 249 \over 165} = 1.5091$$
 							<p>
-							En esta ocasión, el valor indicador supera ampliamente la unidad. El tren se revela como un medio de transporte más conveniente para viajar desde Madrid a Castellón de la Plana. Se puede concluir por tanto que la calidad del tren es  buena. Comparando ambos indicadores \(T_{Cáceres} = 0.6732 > 1.5091 = T_{Castellon}\) se puede concluir que la calidad del tren castellonense es mayor que la del cacereño.
+							En esta ocasión, el valor indicador supera ampliamente la unidad. El tren se revela como un medio de transporte más conveniente para viajar desde Madrid a Castellón de la Plana. Se puede concluir por tanto que la conexión en tren tiene buena calidad. Comparando ambos indicadores \(T_{Cáceres} = 0.6732 > 1.5091 = T_{Castellon}\) se ve que la calidad del tren castellonense es mayor que la del cacereño.
 							</p>
 							<h3 style="margin: 0 0 0em 0;">El Estudio al Completo</h3>
 							<p>
 							Sabiendo ya cómo conseguir saber si una ciudad está bien conectada por tren, a continuación se describe el protocolo seguido durante el estudio:
 							</p>
 							<ol type="1">
-								<li>Se han seleccionado las <span style="font-weight: bold">40 capitales de provinciay comunidades autónomas</span> con mayor población de acuerdo a la lista disponible <a target="_blank"style="font-weight: bold" href="https://es.wikipedia.org/wiki/Anexo:Capitales_de_provincia_de_Espa%C3%B1a_por_poblaci%C3%B3n">aquí</a>. Se han eliminado aquellas que no se encuentran en la península por evidentemente no tener enlace directo vía tren con la capital.
+								<li>Se han seleccionado las <span style="font-weight: bold">40 capitales de provincia y comunidades autónomas</span> con mayor población de acuerdo a la lista disponible <a target="_blank"style="font-weight: bold" href="https://es.wikipedia.org/wiki/Anexo:Capitales_de_provincia_de_Espa%C3%B1a_por_poblaci%C3%B3n">aquí</a>. Evidentemente, se han eliminado aquellas que no se encuentran en la península por no tener enlace directo vía tren con la capital.
 								</li>
 								<li> Para cada una de las ciudades \(C\) en la lista anterior, se ha calculado su indicador \(T_{C}\) para reflejar la calidad de su trayecto en tren a Madrid.
 								</li>
@@ -123,10 +123,10 @@
 							<p>
 							Las dos capitales de provincia extremeñas, <span style="font-weight: bold">Cáceres</span> y <span style="font-weight: bold">Badajoz</span>, y la capital de la comunidad autónoma (<span style="font-weight: bold">Mérida</span>) encabezan la lista de ciudades peor conectadas por tren con Madrid por tren. Son resultados contundentes que vienen a reflejar que el tren en Extremadura es lento y precario.
 							</p><p>
-							Todas las ciudades con indicadores bajo el umbral indicado por la línea roja horizontal tienen trayectos a Madrid por tren que <span style="font-weight: bold">son más lentos que los correspondientes realizados por carretera</span>. En total se trata de 16 ciudades (33%), para las que la red ferroviaria necesita mejorar.
+							Todas las ciudades con indicadores bajo el umbral indicado por la línea roja horizontal tienen trayectos a Madrid por tren que <span style="font-weight: bold">son más lentos que los correspondientes realizados por carretera</span>. En total se trata de 16 ciudades sombreadas en rojo a la izquierada (33% de las capitales), para las que la red ferroviaria necesita mejorar.
 							</p><p>
 							</p><p>
-							Las ciudades comprendidas entre la línea roja horizontal y la verde (en total, 24) presentan trayectos en tren que son preferibles a los realizados por carretera.
+							Las ciudades comprendidas entre la línea roja horizontal y la verde (en total, 24) presentan trayectos en tren que son preferibles a los equivalentes por carretera.
 							</p><p>
 							Finalmente sobre la línea verde horizontal, en la parte derecha del gráfico, se alzan las capitales con los índices más altos en calidad ferroviaria, donde realizar el trayecto en tren es al menos <span style="font-weight: bold">el doble de rápido</span> que hacerlo en coche. Se trata principalmente ciudades conectadas por <span style="font-weight: bold">AVE</span>. Estas cifras ponen en relieve la eficiencia de este medio de transporte. Ejemplos son Ciudad Real, Córdoba o Barcelona.
 							</p><p>
