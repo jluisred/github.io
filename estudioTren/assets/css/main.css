@@ -3305,12 +3305,12 @@ ol > li > ol > li > ol {
 			}
 
 				#footer > .inner section:nth-child(1) {
-					width: calc(66% - 1.25em);
+					width: calc(35% - 1.25em);
 					margin-right: 1.25em;
 				}
 
 				#footer > .inner section:nth-child(2) {
-					width: calc(33% - 1.25em);
+					width: calc(65% - 1.25em);
 					margin-left: 1.25em;
 				}
 
